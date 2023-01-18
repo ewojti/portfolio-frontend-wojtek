@@ -1,0 +1,33 @@
+@import "utilities/variables";
+
+.app__navbar {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  .app__navbar-logo {
+      
+      span {
+          
+          font-family: $--ff-ShadowsIL;
+          background: $--clr-light;
+          color: $--clr-dark;
+          padding: 0 0.5rem;
+        }
+    }
+    
+  .app__navbar-social {
+      align-self: center;
+    svg{
+        margin: 0 0.5rem;
+    }
+    a{
+        border: solid 1px $--clr-light;
+        text-decoration: none;
+        margin: 0 0.5rem;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        color: $--clr-light;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "utilities/variables";
+
+
+.app__aboutMe {
+    display: flex;
+    flex-direction: column;
+    .app__aboutMe-title {
+        h3 {
+            font-size: $--fs-h3;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        h1 {
+            font-size: $--fs-h1;
+            font-weight: $--fw-extraBold;
+        }
+        h1:nth-child(3){
+            color: $--clr-orange;
+        }
+    }
+    .app__aboutMe-description{
+        margin: 1rem 0;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-weight: $--fw-bold;
+    }
+    .app__aboutMe-photo {
+        img {
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px){
+    .app__aboutMe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 576px){
+}
