@@ -6,7 +6,7 @@ import './AboutMe.scss'
 const AboutMe = () => {
   return (
     <div className="app__aboutMe section__padding">
-      <div className="app__aboutMe-title">
+      <div className="app__aboutMe-text">
         <h3> 🖐 Hi my name is </h3>
         <h1>Wojtek</h1>
         <h1>

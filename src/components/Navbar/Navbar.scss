@@ -2,9 +2,10 @@
 
 .app__navbar {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
   .app__navbar-logo {
       
       span {
