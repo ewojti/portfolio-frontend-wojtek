@@ -1,0 +1,37 @@
+@import "utilities/variables";
+
+.marquee {
+  display: flex;
+  margin-top: 2rem;
+  color: $--clr-black;
+  background-color: $--clr-light;
+  --gap: 1rem;
+  overflow: hidden;
+  gap: var(--gap);
+  padding: 1rem;
+  -webkit-box-align: center;
+  transform: rotate(-1deg);
+  font-weight: $--fw-bold;
+
+  .marquee__content{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: var(--gap);
+    flex-shrink: 0;
+    min-width: 100%;
+    animation: marquee-infinite-content 32s linear infinite;
+  }
+  
+  .star {
+    color: $--clr-orange;
+  }
+  @keyframes marquee-infinite-content {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+}

@@ -16,22 +16,46 @@
         h1:nth-child(3){
             color: $--clr-orange;
         }
-    }
-    .app__aboutMe-description{
-        margin: 1rem 0;
-        line-height: 25px;
-        letter-spacing: 1px;
-        font-weight: $--fw-bold;
+        .app__aboutMe-description{
+            margin: 1rem 0;
+            line-height: 25px;
+            letter-spacing: 1px;
+            font-weight: $--fw-bold;
+        }
+        .app__aboutMe-text-button{
+            margin-bottom: 0;
+                transition: all 400ms ease;
+        }
     }
     .app__aboutMe-photo {
         img {
             margin-top: 2rem;
             border-radius: 3rem;
+            width: 100%;
         }
     }
 }
 @media screen and (min-width: 576px){
-    
+
+    .app__aboutMe{
+        .app__aboutMe-text{
+            flex: 1;
+            width: 100%;
+            max-width: 480px;
+            display:flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        .app__aboutMe-photo {
+            flex: 1;
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 
 }
 
@@ -44,6 +68,7 @@
         align-items: center;
         .app__aboutMe-text{
             flex: 1;
+            max-width: 550px;
             width: 100%;
             display:flex;
             justify-content: center;
@@ -52,9 +77,10 @@
         }
         .app__aboutMe-photo {
             flex: 1;
+            max-width: 450px;
             width: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
         }
     }
