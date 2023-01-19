@@ -1,6 +1,10 @@
 @import "utilities/variables";
 
 
+// .section__padding {
+//       padding: 3.5rem 1rem;
+//     }
+
 .app__aboutMe {
     display: flex;
     flex-direction: column;
@@ -24,7 +28,6 @@
         }
         .app__aboutMe-text-button{
             margin-bottom: 0;
-                transition: all 400ms ease;
         }
     }
     .app__aboutMe-photo {
@@ -61,6 +64,9 @@
 
 
 @media screen and (min-width: 1024px){
+    // .section__padding {
+    //   padding: 3.5rem 10rem;
+    // }
     .app__aboutMe{
         display: flex;
         flex-direction: row;
