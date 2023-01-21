@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
-import { FiFacebook, FiGithub, FiInstagram } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -9,9 +9,9 @@ const Navbar = () => {
         <h2><span>W</span> folio</h2>
       </div>
       <div className='app__navbar-social'>
-        <FiFacebook />
+        <FiLinkedin />
         <FiGithub />
-        <a href='' target='blank'>Download CV</a>
+        <button href='' target='blank'>Download CV</button>
       </div>
     </div>
   )

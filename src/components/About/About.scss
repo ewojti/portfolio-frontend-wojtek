@@ -1,0 +1,13 @@
+@import "utilities/variables";
+@import "utilities/animations";
+
+.app__about {
+    display: flex;
+    span{
+        color: $--clr-orange;
+    }
+    .app__about-title{
+        font-weight: $--fw-extraBold;
+        font-size: $--fs-h1;
+    }
+}

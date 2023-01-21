@@ -7,7 +7,7 @@
   justify-content: space-between;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
   .app__navbar-logo {
-      
+      align-self: center;
       span {
           
           font-family: $--ff-ShadowsIL;
@@ -22,14 +22,15 @@
     svg{
         margin: 0 0.8rem;
     }
-    a{
-        border: solid 1px $--clr-light;
-        text-decoration: none;
+    button{
+        @include btn($--clr-light, $--clr-black);
         margin: 0 0.8rem;
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
-        color: $--clr-light;
+        border: solid 1px $--clr-light;
       }
+    button:hover{
+      color: $--clr-dark;
+      background: $--clr-light;
+    }
     }
   }
   
@@ -37,7 +38,7 @@
     .app__navbar {
     padding: 1rem 2rem;
     .app__navbar-social {
-      a{
+      button{
         display: none;
     }
   }

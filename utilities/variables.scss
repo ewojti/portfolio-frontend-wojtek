@@ -19,10 +19,10 @@ $--fs-h3: 1.25rem;
 $--fs-body: 1rem;
 
   .section__padding {
-        padding: 3.5rem 10rem;
+        padding: 2.5rem 10rem;
       }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 650px){
   .section__padding {
         padding: 2rem;
       }
@@ -53,11 +53,11 @@ $--fs-body: 1rem;
   margin-left: 2rem;
 }
 
-.btn{
-    background-color: $--clr-orange;
+@mixin btn($color, $bg){
+    background-color: $bg;
     font-family: $--ff-inter;
     font-weight: $--fw-bold;
-    color: $--clr-dark;
+    color: $color;
     width: 215px;
     height: 59px;
     border-radius: 60px;
