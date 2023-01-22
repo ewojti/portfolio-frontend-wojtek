@@ -7,9 +7,9 @@
     max-width: 400px;
     padding: 1.5rem;
     border-radius: 2rem;
-    box-shadow: -1px 1px 12px 5px rgba(255,142,94,1);
-    -webkit-box-shadow: -1px 1px 12px 5px rgba(255,142,94,1);
--moz-box-shadow: -1px 1px 12px 5px rgba(255,142,94,1);
+box-shadow: -1px 9px 12px 4px rgba(255,142,94,0.79);
+-webkit-box-shadow: -1px 9px 12px 4px rgba(255,142,94,0.79);
+-moz-box-shadow: -1px 9px 12px 4px rgba(255,142,94,0.79);
     .app__project-card-img{
         img{
             border-radius: 1rem;
@@ -33,7 +33,11 @@
 }
 
 @media screen and (min-width: 1024px){
-   .app__project-card{
-    
-} 
+    .app__project-card{
+        
+    } 
+}
+.app__project-card:hover{
+    transform: scale(1.1)!important;
+
 }

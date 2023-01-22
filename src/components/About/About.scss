@@ -12,6 +12,12 @@
         .app__about-title{
             font-weight: $--fw-extraBold;
             font-size: $--fs-h1;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: $--fs-h3;
+            margin-bottom: 1rem;
+            span: $--clr-orange;
         }
     }
     .app__about-picture{
