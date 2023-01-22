@@ -2,7 +2,7 @@
 
 .app__navbar {
   width: 100%;
-  padding: 2rem 10rem;
+  padding: 1.5rem 10rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
@@ -20,7 +20,7 @@
   .app__navbar-social {
       align-self: center;
     svg{
-        margin: 0 0.8rem;
+        margin-left: 0.8rem;
     }
     button{
         @include btn($--clr-light, $--clr-black);
@@ -34,9 +34,9 @@
     }
   }
   
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 768px){
     .app__navbar {
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     .app__navbar-social {
       button{
         display: none;

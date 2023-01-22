@@ -1,7 +1,6 @@
 import React from 'react';
 import images from '../../constants/images'
-import './Header.scss'
-
+import './Header.scss';
 
 const Header = () => {
   return (
@@ -15,11 +14,14 @@ const Header = () => {
           BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL
           INTERACTIONS THAT DELIGHT PEOPLE.
         </p>
-        <button className="btn app__header-text-button">Get in touch</button>
+        <div className="app__header-text-button">
+        <button>Get in touch</button>
+        </div>
       </div>
       <div className="app__header-photo">
         <img src={images.portfolio} alt="portfolio" />
       </div>
+      {/* <a href=''>Go to projects</a> */}
     </div>
   );
 }

@@ -4,16 +4,22 @@ import images from '../../constants/images';
 import './Project.scss'
 
 
-const Project = ({title, description, image, gitHubLink, liveLink, technogies}) => {
+const Project = ({title, description, image, gitHubLink, liveLink, technologies}) => {
   return (
-    <div className="app__project">
-      <div className="app__project-img">
+    <div className="app__project-card">
+      <div className="app__project-card-img">
         <img src={image} alt="" />
       </div>
-      <div className="app__project-text">
+      <div className="app__project-card-text">
         <h1>{title}</h1>
         <p>{description}</p>
-        <div className="app__project-share">
+        <h2>Tools used:</h2>
+        <ul>
+          {technologies.map(tech => (
+            <li>{tech}</li>
+          ))}
+        </ul>
+        <div className="app__project-card-share">
           <button>
           <FiGithub />
           </button>

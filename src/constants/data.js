@@ -47,8 +47,8 @@ const projects = [
     technologies: ["React", "css"],
   },
   {
-    title: "AirBnb clone",
-    image: `${images.safari}`,
+    title: "Lombi cash - Open source project",
+    image: `${images.Lombi}`,
     description:
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",

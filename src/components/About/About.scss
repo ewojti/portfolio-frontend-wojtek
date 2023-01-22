@@ -3,11 +3,20 @@
 
 .app__about {
     display: flex;
-    span{
-        color: $--clr-orange;
+    flex-direction: column;
+    .app__about-text{
+        flex: 2;
+        span{
+            color: $--clr-orange;
+        }
+        .app__about-title{
+            font-weight: $--fw-extraBold;
+            font-size: $--fs-h1;
+        }
     }
-    .app__about-title{
-        font-weight: $--fw-extraBold;
-        font-size: $--fs-h1;
+    .app__about-picture{
+        display: flex;
+        flex: 1;
     }
+
 }
