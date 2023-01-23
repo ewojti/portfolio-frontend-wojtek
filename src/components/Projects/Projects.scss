@@ -15,12 +15,13 @@
         }
     }
     h3{
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 }
 .app__projects-cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    margin: 0 auto;
+    gap: 2.5rem;
 }

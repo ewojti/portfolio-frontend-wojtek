@@ -2,7 +2,11 @@
 
 .app__footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: $--clr-dark;
+    padding: 3rem 10rem;
+    justify-content: center;
+    opacity: 0.8;
+    a{
+        color: $--clr-orange;
+    }
 }

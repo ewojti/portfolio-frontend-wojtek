@@ -11,23 +11,18 @@ const Project = ({title, description, image, gitHubLink, liveLink, technologies}
         <img src={image} alt="" />
       </div>
       <div className="app__project-card-text">
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <h2>Tools used:</h2>
-        <ul>
-          {technologies.map(tech => (
-            <li>{tech}</li>
+        <div className="app__project-card-tech">
+          {technologies.map((tech) => (
+            <div className="app__project-card-tech-btn">{tech}</div>
           ))}
-        </ul>
-        <div className="app__project-card-share">
-          <button>
-          <FiGithub />
-          </button>
-          <button>
-            View Site            
-          </button>
         </div>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
+        <div className="app__project-card-view">
+          <div className="app__project-card-view-btn">View Code</div>
+          <div className="app__project-card-view-btn">View Site</div>
+        </div>
     </div>
   );
 }

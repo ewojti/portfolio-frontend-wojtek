@@ -15,14 +15,26 @@
             margin-bottom: 1rem;
         }
         p{
-            font-size: $--fs-h3;
-            margin-bottom: 1rem;
-            span: $--clr-orange;
+            font-size: $--fs-body;
+            font-weight: $--fw-regular;
+            margin-bottom: 2rem;
+            span{ 
+                color: $--clr-orange;
+            }
         }
     }
     .app__about-picture{
         display: flex;
         flex: 1;
+        img{
+            max-width: 500px;
+            width: 100%;
+        }
     }
+}
 
+@media screen and (min-width: 1024px){
+    .app__about {
+    flex-direction: row;
+    }
 }

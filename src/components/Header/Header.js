@@ -21,7 +21,6 @@ const Header = () => {
       <div className="app__header-photo">
         <img src={images.portfolio} alt="portfolio" />
       </div>
-      {/* <a href=''>Go to projects</a> */}
     </div>
   );
 }

@@ -33,8 +33,6 @@
             button{
                 @include slide-in-bottom-sec;
                 @include btn($--clr-dark, $--clr-orange);
-                margin-bottom: 0;
-                margin-right: 1rem;
             }
         }
     }
@@ -81,7 +79,6 @@
         .app__header-text{
             flex: 1;
             max-width: 550px;
-            width: 100%;
             display:flex;
             justify-content: center;
             align-items: flex-start;
@@ -89,11 +86,15 @@
         }
         .app__header-photo {
             flex: 1;
-            max-width: 450px;
+            max-width: 550px;
             width: 100%;
             display: flex;
             justify-content: flex-end;
             align-items: center;
         }
+        .app__header-text-button{
+            margin-top: 1rem;
+        }
     }
+
 }

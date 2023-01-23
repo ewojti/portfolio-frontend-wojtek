@@ -8,7 +8,7 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "./",
     liveLink: "",
-    technologies: ["React", "css"],
+    technologies: ["React", 'HTML', "CSS"],
   },
   {
     title: "Herokuapp",
@@ -17,7 +17,7 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["JavaScript", "css"],
+    technologies: ["JavaScript", 'HTML', "CSS"],
   },
   {
     title: "Restaurant website",
@@ -26,7 +26,7 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["React", "css"],
+    technologies: ["React", 'HTML', "CSS"],
   },
   {
     title: "Fizjoterapia Joanna Ejsmont",
@@ -35,7 +35,7 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["Next.js", "Tailwind"],
+    technologies: ["Next.js", 'HTML', "Tailwind"],
   },
   {
     title: "Coctail recipe app",
@@ -44,16 +44,16 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["React", "css"],
+    technologies: ["React", 'HTML', "CSS"],
   },
   {
-    title: "Lombi cash - Open source project",
+    title: "Lombi cash",
     image: `${images.Lombi}`,
     description:
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["React", "css"],
+    technologies: ["React", 'HTML', "CSS"],
   },
 ];
 

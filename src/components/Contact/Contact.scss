@@ -1,0 +1,10 @@
+@import 'utilities/variables';
+
+.app__connect{
+    h1{
+        font-family: $--ff-inter;
+    }
+    .app__connect-socials{
+        display: flex;
+    }
+}
