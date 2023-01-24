@@ -5,6 +5,7 @@
     flex-direction: column;
     max-width: 390px;
     width: 100%;
+    height: auto;
     margin-bottom: 1rem;
     padding: 1.5rem;
     border-radius: 2rem;
@@ -31,6 +32,7 @@
         .app__project-card-tech{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 1rem;
             .app__project-card-tech-btn{
                 font-size: $--fs-body;

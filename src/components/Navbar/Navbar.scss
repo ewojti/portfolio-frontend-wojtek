@@ -2,14 +2,13 @@
 
 .app__navbar {
   width: 100%;
-  padding: 1.5rem 10rem;
+  padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
   .app__navbar-logo {
       align-self: center;
       span {
-          
           font-family: $--ff-ShadowsIL;
           background: $--clr-light;
           color: $--clr-dark;
@@ -18,29 +17,54 @@
     }
     
   .app__navbar-social {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
     svg{
       align-self: center;
-        margin-left: 0.8rem;
+      font-size: $--fs-h3;
+      cursor: pointer;
     }
-    button{
-        @include btn($--clr-light, $--clr-black);
-        margin: 0 0.8rem;
-        border: solid 1px $--clr-light;
+    a{
+        display: none;
       }
-    button:hover{
-      color: $--clr-dark;
-      background: $--clr-light;
+    a:hover{
+      border-bottom: 4px solid $--clr-orange;
     }
     }
   }
   
-  @media screen and (max-width: 768px){
+  @media screen and (min-width: 400px){
     .app__navbar {
-    padding: 1.5rem 2rem;
-    .app__navbar-social {
-      button{
-        display: none;
+      padding: 1.5rem 4rem;
     }
   }
+
+  @media screen and (min-width: 768px){
+    .app__navbar {
+      padding: 1.5rem 10rem;
+      .app__navbar-social {
+        a{
+        display: block;
+        font-size: $--fs-body;
+        align-self: center;
+        text-decoration: none;
+        color: $--clr-light;
+        border-bottom: 1px solid $--clr-orange;
+      }
 }
-}
+}}
+
+  @media screen and (min-width: 1024px){
+    .app__navbar {
+        padding: 1.5rem 10rem;
+      .app__navbar-social {
+        gap: 2rem;
+        a{
+          display: none;
+      }
+      svg{
+        font-size: $--fs-h3;
+      }
+    }
+}}

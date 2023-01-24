@@ -27,6 +27,7 @@ const About = () => {
       <div className="app__about-picture">
         <img src={images.taxideveloper} alt="" />
       </div>
+      
     </div>
   );
 }
