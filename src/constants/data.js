@@ -29,7 +29,7 @@ const projects = [
     technologies: ["React.js", 'HTML', "CSS"],
   },
   {
-    title: "Fizjoterapia Joanna Ejsmont",
+    title: "Fizjo-site",
     image: `${images.fizjoterapia}`,
     description:
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",

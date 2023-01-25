@@ -2,7 +2,7 @@
 
 .app__navbar {
   width: 100%;
-  padding: 1.5rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
@@ -60,9 +60,6 @@
         padding: 1.5rem 10rem;
       .app__navbar-social {
         gap: 2rem;
-        a{
-          display: none;
-      }
       svg{
         font-size: $--fs-h3;
       }

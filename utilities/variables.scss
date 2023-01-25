@@ -9,14 +9,20 @@ $--fw-bold: 700;
 $--fw-extraBold: 800;
 
 $--clr-black: #1D1E22;
-$--clr-dark: #000000;
+$--clr-dark: #19191d;
 $--clr-light: #FFFFFF;
 $--clr-orange: #FF8E5E;
 
 $--fs-h1: 3rem;
 $--fs-h2: 2.25rem;
 $--fs-h3: 1.5rem;
+$--fs-h4: 0.8rem;
 $--fs-body: 1.25rem;
+
+$--fs-h1-mobile: 3rem;
+$--fs-h2-mobile: 2.25rem;
+$--fs-h3-mobile: 1.5rem;
+$--fs-body-mobile: 1.1rem;
 
   .section__padding {
         padding: 2.5rem 2rem;
@@ -33,7 +39,7 @@ $--fs-body: 1.25rem;
 }
 @media screen and (min-width: 1024px){
   .section__padding {
-        padding: 4rem 10rem;
+        padding: 2rem 10rem;
       }
 }
 

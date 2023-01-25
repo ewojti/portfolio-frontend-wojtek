@@ -5,8 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    background-color: $--clr-dark;
     h1{
         font-size: $--fs-h1;
         margin-bottom: 0.5rem;
@@ -14,9 +15,7 @@
     h3{
         margin-bottom: 2rem;
         font-weight: $--fw-regular;
-        // span{
-        //     color: $--clr-orange;
-        // }
+
     }
     .app__connect-socials{
         display: flex;

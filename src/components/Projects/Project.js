@@ -1,12 +1,19 @@
-import React from 'react'
-import { FiGithub } from "react-icons/fi";
-import images from '../../constants/images';
-import './Project.scss'
+import React, { useEffect } from 'react';
+import './Project.scss';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 
 const Project = ({title, description, image, gitHubLink, liveLink, technologies}) => {
+  useEffect(()=> {
+    Aos.init({})
+  }, [])
   return (
-    <div className="app__project-card">
+    <div className="app__project-card" 
+    data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"
+     >
       <div className="app__project-card-img">
         <img src={image} alt="" />
       </div>
@@ -19,10 +26,10 @@ const Project = ({title, description, image, gitHubLink, liveLink, technologies}
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-        <div className="app__project-card-view">
-          <div className="app__project-card-view-btn">View Code</div>
-          <div className="app__project-card-view-btn">View Site</div>
-        </div>
+      <div className="app__project-card-view">
+        <div className="app__project-card-view-btn">View Site</div>
+        <div className="app__project-card-view-btn">View Code</div>
+      </div>
     </div>
   );
 }
