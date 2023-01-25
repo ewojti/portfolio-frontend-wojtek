@@ -49,11 +49,15 @@ const About = () => {
           <p>
             I finished a "Frontend Developer carrer path" <span>course</span> at
             Scrimba.com. Next I started working at my <span>own projects</span>{" "}
-            to expand my skills about JS & freamework, CSS and also
+            to expand my skills about JS & React.js, CSS and also
             CSS-preprocessor. I also participate at{" "}
             <span>open source project</span> at LombiCash.com. Where I working
-            with teammates on frontend. My whole learning path was under the
-            supervision of an lead programmer <FiLinkedin />.
+            on frontend side. My whole learning path was under the supervision
+            of an lead programmer{" "}
+            <span>
+              <FiLinkedin />
+            </span>
+            .
           </p>
         </div>
         <div

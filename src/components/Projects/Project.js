@@ -9,18 +9,21 @@ const Project = ({title, description, image, gitHubLink, liveLink, technologies}
     Aos.init({})
   }, [])
   return (
-    <div className="app__project-card" 
-    data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000"
-     >
+    <div
+      className="app__project-card"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+    >
       <div className="app__project-card-img">
         <img src={image} alt="" />
       </div>
       <div className="app__project-card-text">
         <div className="app__project-card-tech">
           {technologies.map((tech) => (
-            <div className="app__project-card-tech-btn">{tech}</div>
+            <div className="app__project-card-tech-btn" key={tech.toString()}>
+              {tech}
+            </div>
           ))}
         </div>
         <h2>{title}</h2>
