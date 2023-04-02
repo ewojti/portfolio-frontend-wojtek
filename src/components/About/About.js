@@ -71,7 +71,6 @@ const About = () => {
           <ul>
             <li>👉{""}Play in football</li>
             <li>👉{""}Cooking</li>
-            <li>👉{""}Everything about programming</li>
             <li>👉{""}Travelling</li>
           </ul>
         </div>
