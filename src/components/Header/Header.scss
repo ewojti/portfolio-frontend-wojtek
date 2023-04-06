@@ -2,95 +2,85 @@
 @import "utilities/animations";
 
 .app__header {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .app__header-text {
+    h3 {
+      font-size: $--fs-h3;
+      color: hsla(0, 0%, 100%, 0.5);
+      margin-bottom: 1rem;
+      transition-delay: 200ms;
+    }
+    h1 {
+      font-size: $--fs-h1;
+      font-weight: $--fw-extraBold;
+    }
+    h1:nth-child(3) {
+      color: $--clr-orange;
+    }
+    .app__header-description {
+      margin: 1rem 0;
+      line-height: 25px;
+      letter-spacing: 1px;
+      font-weight: $--fw-bold;
+    }
+    .app__header-text-button {
+      font-size: $--fs-h4;
+      @include btn($--clr-dark, $--clr-orange);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: $--clr-orange 1px solid;
+      &:hover {
+        background: $--clr-dark;
+        color: $--clr-orange;
+      }
+    }
+  }
+  .app__header-photo {
+    img {
+      width: 100%;
+      margin-top: 2rem;
+      border-radius: 2rem;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .app__header {
     .app__header-text {
-        h3 {
-            font-size: $--fs-h3;
-            color: hsla(0, 0%, 100%, 0.5);
-            margin-bottom: 1rem;
-            transition-delay: 200ms;
-        }
-        h1 {
-            font-size: $--fs-h1;
-            font-weight: $--fw-extraBold;
-        }
-        h1:nth-child(3){
-            color: $--clr-orange;
-        }
-        .app__header-description{
-            margin: 1rem 0;
-            line-height: 25px;
-            letter-spacing: 1px;
-            font-weight: $--fw-bold;
-        }
-        .app__header-text-button{
-            button{
-                @include btn($--clr-dark, $--clr-orange);
-            }
-        }
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
     .app__header-photo {
-        img {
-            margin-top: 2rem;
-            border-radius: 2rem;
-            max-width: 500px;
-            width: 100%;
-        }
+      display: flex;
+      justify-content: center;
+      align-self: center;
     }
-}
-@media screen and (min-width: 768px){
-
-    .app__header{
-        .app__header-text{
-            flex: 1;
-            width: 100%;
-            max-width: 480px;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-        }
-        .app__header-photo {
-            flex: 1;
-            width: 100%;
-            max-width: 600px;
-            display: flex;
-            justify-content: center;
-            align-self: center;
-        }
-    }
-
+  }
 }
 
-
-@media screen and (min-width: 1024px){
-    .app__header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        .app__header-text{
-            flex: 1;
-            max-width: 550px;
-            display:flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-        }
-        .app__header-photo {
-            flex: 1;
-            max-width: 550px;
-            width: 100%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        .app__header-text-button{
-            margin-top: 1rem;
-        }
+@media screen and (min-width: 1200px) {
+  .app__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .app__header-text {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
     }
-
+    .app__header-photo {
+      max-width: 500px;
+      width: 100%;
+    }
+    .app__header-text-button {
+      margin-top: 1rem;
+    }
+  }
 }

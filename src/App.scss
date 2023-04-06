@@ -4,4 +4,9 @@ html, body {
   background-color: $--clr-black;
   color: $--clr-light;
   font-family: $--ff-inter;
+  cursor: default;
+}
+
+a{
+  text-decoration: none;
 }

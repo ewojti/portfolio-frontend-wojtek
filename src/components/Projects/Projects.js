@@ -12,14 +12,12 @@ const Projects = () => {
   return (
     <div className="app__projects section__padding">
       <h1
-        // data-aos="zoom-in-down"
-        data-aos="fade-left"
+        data-aos="fade-right"
       >
         My Recent <span>Works</span>
       </h1>
       <h3 
-      // data-aos="zoom-in-down" 
-      data-aos="fade-left"
+      data-aos="fade-right"
       >
         Here are a few projects I've worked on recently
       </h3>
@@ -33,6 +31,7 @@ const Projects = () => {
             gitHubLink={project.gitHubLink}
             liveLink={project.liveLink}
             technologies={project.technologies}
+            project={project}
           />
         ))}
       </div>

@@ -45,14 +45,14 @@ const Header = () => {
           BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL
           INTERACTIONS THAT DELIGHT PEOPLE.
         </p>
-        <div
+        <button
           className="app__header-text-button"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
-          data-aos-delay="2800"
+          // data-aos-delay="2800"
         >
-          <button>Get in touch</button>
-        </div>
+          <p>Get in touch</p>
+        </button>
       </div>
       <div
         className="app__header-photo"

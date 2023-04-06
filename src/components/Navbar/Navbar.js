@@ -1,6 +1,6 @@
-import React from 'react'
-import './Navbar.scss'
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import React from "react";
+import "./Navbar.scss";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -11,17 +11,22 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="app__navbar-social">
-        <a href="https://www.linkedin.com/in/wojciech-ejsmont-95957618a/">
+        <a
+          href="https://www.linkedin.com/in/wojciech-ejsmont-95957618a/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiLinkedin />
         </a>
-        <a href="https://github.com/ewojti">
+        <a href="https://github.com/ewojti" target="_blank" rel="noreferrer">
           <FiGithub />
         </a>
-        <a href="" target="blank">
+        <a href="./" target="blank" rel="noreferrer">
           Resume
         </a>
       </div>
     </div>
-  );}
+  );
+};
 
-export default Navbar
+export default Navbar;
