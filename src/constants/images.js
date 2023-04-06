@@ -5,7 +5,7 @@ import restaurant from '../assets/restaurant.PNG';
 import fizjoterapia from '../assets/fizjoterapia.PNG';
 import Lombi from '../assets/Lombi.PNG';
 
-export default {
+const image = {
     portfolio,
     gericht,
     safari,
@@ -13,3 +13,5 @@ export default {
     fizjoterapia,
     Lombi
 };
+
+export default image;
