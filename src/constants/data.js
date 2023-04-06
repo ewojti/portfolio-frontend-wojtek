@@ -50,7 +50,7 @@ const projects = [
     title: "Paper Scissors Rock",
     image: `${images.safari}`,
     description:
-      "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
+      "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus.",
     gitHubLink: "AU | Bottle",
     liveLink: "https://github.com/ewojti/Paper-Scissors-Rock",
     technologies: ["React", "HTML", "CSS"],

@@ -18,7 +18,7 @@ const About = () => {
       <div className="app__about-section">
         <div
           className="app__about-section-card"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="1500"
         >
           <span className="app__about-section-emoji">👨📐✏️📈</span>
@@ -67,7 +67,6 @@ const About = () => {
         >
           <span className="app__about-section-emoji">👨‍💻</span>
           <h2>Hobby</h2>
-          <h4></h4>
           <ul>
             <li>👉{""}Play in football</li>
             <li>👉{""}Cooking</li>
