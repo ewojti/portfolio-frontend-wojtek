@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div className="app__navbar">
+    <nav className="app__navbar">
       <div className="app__navbar-logo">
         <h2>
           <span>W</span> folio
@@ -29,7 +29,7 @@ const Navbar = () => {
           Resume
         </a>
       </div>
-    </div>
+    </nav>
   );
 };
 

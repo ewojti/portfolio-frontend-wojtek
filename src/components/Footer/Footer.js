@@ -3,11 +3,11 @@ import './Footer.scss'
 
 const Footer = () => {
   return (
-    <div className="app__footer">
+    <footer className="app__footer">
       <p>
         © 2022 Developed by Wojtek Ejsmont
       </p>
-    </div>
+    </footer>
   );
 }
 
