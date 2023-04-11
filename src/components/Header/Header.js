@@ -11,33 +11,13 @@ const Header = () => {
   return (
     <div className="app__header section__padding">
       <div className="app__header-text">
-        <h3
-          className="slide-in-fwd-center"
-          // data-aos="fade-zoom-in"
-          // data-aos-easing="ease-in-back"
-          // data-aos-delay="600"
-          // data-aos-offset="0"
-        >
-          🖐 Hello, my name is
-        </h3>
-        <h1
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="1100"
-          data-aos-offset="0"
-        >
-          Wojtek.
-        </h1>
-        <h1
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="1800"
-          data-aos-offset="0"
-        >
+        <h3 className="slide-in-fwd-center">🖐 Hello, my name is</h3>
+        <h1 className="slide-in-fwd-center-sec">Wojtek.</h1>
+        <h1 className="slide-in-fwd-center-third">
           I AM ASPIRE AS A REACT FRONTEND DEVELOPER FOR MY FIRST JOB
         </h1>
         <p
-          className="app__header-description"
+          className="app__header-description slide-in-bottom"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-delay="2600"
@@ -47,9 +27,9 @@ const Header = () => {
           INTERACTIONS THAT DELIGHT PEOPLE.
         </p>
         <button
-          className="app__header-text-button"
-          data-aos="fade-up"
-          data-aos-delay="2800"
+          className="app__header-text-button slide-in-bottom-sec"
+          // data-aos="fade-up"
+          // data-aos-delay="2800"
         >
           <p>Get in touch</p>
         </button>

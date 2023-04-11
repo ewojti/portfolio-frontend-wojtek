@@ -23,7 +23,7 @@ const Project = ({
     >
       <div>
         <div className="app__project-card-img">
-          <img src={image} alt="" />
+          <img src={image} alt={title} />
         </div>
         <div className="app__project-card-text">
           <div className="app__project-card-tech">

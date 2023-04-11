@@ -8,7 +8,7 @@ const projects = [
       "Website for cabinet of physiotherapy with blog. This site was build in Next.js which come with a lot of optimization. ",
     gitHubLink: "https://github.com/ewojti/fizjoterapia-joanna-ejsmont-nextjs",
     liveLink: "https://www.fizjoterapia-ejsmont.pl",
-    technologies: ["Next.js", "HTML", "SCSS"],
+    technologies: ["NEXT", "HTML", "SCSS"],
   },
   {
     title: "Lombi cash",
@@ -35,7 +35,7 @@ const projects = [
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
     gitHubLink: "AU | Bottle",
     liveLink: "",
-    technologies: ["JavaScript", "HTML", "CSS"],
+    technologies: ["JS", "HTML", "CSS"],
   },
   {
     title: "Restaurant website",

@@ -6,7 +6,7 @@
   justify-content: space-between;
   max-width: 390px;
   width: 100%;
-  height: 610px;
+  height: auto;
   padding: 1.5rem;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 8px 24px -13px rgba(255, 142, 94, 1);
@@ -51,9 +51,8 @@
   .app__project-card-view {
     display: flex;
     justify-content: center;
-    margin: 0;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     position: relative;
     bottom: 0;
     .app__project-card-view-btn {
@@ -77,5 +76,11 @@
         margin: 0 auto;
       }
     }
+  }
+}
+
+@media screen and (min-width: 768px){
+  .app__project-card{
+    height: 610px;
   }
 }
