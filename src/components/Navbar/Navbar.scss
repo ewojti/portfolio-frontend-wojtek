@@ -2,7 +2,8 @@
 
 .app__navbar {
   width: 100%;
-  padding: 2rem 2rem;
+  height: 90px;
+    padding: 2rem 2rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.02);
@@ -26,7 +27,17 @@
       cursor: pointer;
     }
     a {
-      display: none;
+      display: block;
+      font-size: $--fs-body;
+      align-self: center;
+      text-decoration: none;
+      color: $--clr-light;
+      &:last-child {
+        border-bottom: 1px solid $--clr-orange;
+      }
+      &:hover {
+        border-bottom: 4px solid $--clr-orange;
+      }
     }
   }
 }
@@ -40,21 +51,6 @@
 @media screen and (min-width: 768px) {
   .app__navbar {
     padding: 1.5rem 10rem;
-    .app__navbar-social {
-      a {
-        display: block;
-        font-size: $--fs-body;
-        align-self: center;
-        text-decoration: none;
-        color: $--clr-light;
-        &:last-child {
-          border-bottom: 1px solid $--clr-orange;
-        }
-        &:hover {
-          border-bottom: 4px solid $--clr-orange;
-        }
-      }
-    }
   }
 }
 

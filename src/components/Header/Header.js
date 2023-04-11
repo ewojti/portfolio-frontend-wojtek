@@ -12,10 +12,11 @@ const Header = () => {
     <div className="app__header section__padding">
       <div className="app__header-text">
         <h3
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="600"
-          data-aos-offset="0"
+          className="slide-in-fwd-center"
+          // data-aos="fade-zoom-in"
+          // data-aos-easing="ease-in-back"
+          // data-aos-delay="600"
+          // data-aos-offset="0"
         >
           🖐 Hello, my name is
         </h3>
@@ -48,8 +49,7 @@ const Header = () => {
         <button
           className="app__header-text-button"
           data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          // data-aos-delay="2800"
+          data-aos-delay="2800"
         >
           <p>Get in touch</p>
         </button>
