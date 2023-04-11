@@ -1,8 +1,21 @@
-import React from 'react';
-import images from '../../constants/images'
-import './Header.scss';
+import React, { useState, useEffect } from "react";
+import ContactModal from "./ContactModal";
+import images from "../../constants/images";
+import "./Header.scss";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const handleOpenModal = () => setIsOpen(true);
+  const handleCloseModal = () => setIsOpen(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("active-modal");
+    } else {
+      document.body.classList.remove("active-modal");
+    }
+  }, [isOpen]);
+
   return (
     <div className="app__header section__padding">
       <div className="app__header-text">
@@ -16,15 +29,19 @@ const Header = () => {
           BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL
           INTERACTIONS THAT DELIGHT PEOPLE.
         </p>
-        <button className="app__header-text-button slide-in-bottom-sec">
+        <button
+          className="app__header-text-button slide-in-bottom-sec"
+          onClick={handleOpenModal}
+        >
           <p>Get in touch</p>
         </button>
       </div>
       <div className="app__header-photo text-focus-in">
         <img src={images.portfolio} alt="portfolio" />
       </div>
+      <ContactModal handleCloseModal={handleCloseModal} isOpen={isOpen} />
     </div>
   );
-}
+};
 
-export default Header
+export default Header;

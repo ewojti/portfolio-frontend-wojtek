@@ -1,0 +1,102 @@
+@import "utilities/variables";
+
+/*** modal globals ***/
+
+.modal-overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.app__modal,
+.modal-overlay {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.app__modal {
+  .app__modal-content {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $--clr-black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.8rem;
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    h2 {
+      margin-bottom: 0.8rem;
+      font-size: $--fs-h2;
+      text-align: center;
+      color: $--clr-orange;
+    }
+    .app__modal-content-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .app__modal-button {
+      font-size: $--fs-h4;
+      @include btn($--clr-dark, $--clr-orange);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: $--clr-orange 1px solid;
+      &:hover {
+        background: $--clr-dark;
+        color: $--clr-orange;
+      }
+    }
+    .modal-close {
+      margin-top: 1rem;
+      align-self: center;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .app__modal {
+    .app__modal-content {
+      max-width: 470px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app__modal {
+    .app__modal-content {
+      max-width: 690px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .app__modal {
+    .app__modal-content {
+      max-width: 1000px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app__modal {
+    ul {
+      li {
+        font-size: 2.3rem;
+      }
+    }
+  }
+}

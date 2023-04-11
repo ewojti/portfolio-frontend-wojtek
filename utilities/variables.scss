@@ -34,30 +34,6 @@ $--fs-body-mobile: 1rem;
   }
 }
 
-.app__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.app__wrapper_info {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.app__wrapper_img {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 2rem;
-}
-
 @mixin btn($color, $bg) {
   background-color: $bg;
   font-family: $--ff-inter;
