@@ -8,5 +8,8 @@ html, body {
 }
 
 a{
+  font-size: $--fs-body;
+  align-self: center;
   text-decoration: none;
+  color: $--clr-light;
 }

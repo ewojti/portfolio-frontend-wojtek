@@ -7,8 +7,9 @@
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 5rem;
+    min-height: 100vh;
     background-color: $--clr-dark;
-    h1{
+    h2{
         font-size: $--fs-h1;
         margin-bottom: 0.5rem;
     }
@@ -21,5 +22,16 @@
         display: flex;
         font-size: $--fs-h2;
         gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .app__connect{
+        h2{
+            font-size: 5rem;
+        }
+        a{
+            font-size: 3rem;
+        }
     }
 }

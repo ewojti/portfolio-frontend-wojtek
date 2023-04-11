@@ -27,11 +27,6 @@
       cursor: pointer;
     }
     a {
-      display: block;
-      font-size: $--fs-body;
-      align-self: center;
-      text-decoration: none;
-      color: $--clr-light;
       &:last-child {
         border-bottom: 1px solid $--clr-orange;
       }
