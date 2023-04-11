@@ -18,10 +18,10 @@ const About = () => {
       <div className="app__about-section">
         <div
           className="app__about-section-card"
-          data-aos="fade-up"
-          data-aos-duration="1500"
+          data-aos="fade-in"
+          data-aos-delay="300"
         >
-          <span className="app__about-section-emoji">👨📐✏️📈</span>
+          <div className="app__about-section-emoji">👨📐✏️📈</div>
           <h2>Mechanical engineer</h2>
           <h4>
             5 yrs experience at big factory || self & team work on the projects
@@ -37,8 +37,8 @@ const About = () => {
         </div>
         <div
           className="app__about-section-card"
-          data-aos="fade-down"
-          data-aos-duration="2000"
+          data-aos="fade-in"
+          data-aos-delay="600"
         >
           <span className="app__about-section-emoji">👨‍💻</span>
           <h2>Programming experience</h2>
@@ -62,8 +62,8 @@ const About = () => {
         </div>
         <div
           className="app__about-section-card"
-          data-aos="fade-down"
-          data-aos-duration="2500"
+          data-aos="fade-in"
+          data-aos-delay="900"
         >
           <span className="app__about-section-emoji">👨‍💻</span>
           <h2>Hobby</h2>

@@ -37,11 +37,10 @@
     }
     .app__project-card-tech {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       flex-wrap: wrap;
-      gap: 1rem;
       .app__project-card-tech-btn {
-        font-size: $--fs-body;
+        font-size: $--fs-body-mobile;
         font-weight: $--fw-extraLight;
         border: solid 0.5px $--clr-light;
         padding: 0.5rem 1rem;

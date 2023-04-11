@@ -11,7 +11,7 @@ const projects = [
     technologies: ["NEXT", "HTML", "SCSS"],
   },
   {
-    title: "Lombi cash",
+    title: "Lombi.com",
     image: `${images.Lombi}`,
     description:
       "Nullam accumsan vehicula neque, id lobortis augue feugiat eu. Nunc sagittis arcu accumsan est commodo, sit amet faucibus lorem luctus. Fusce imperdiet arcu vel consectetur cursus. Curabitur id elit sit amet sapien bibendum malesuada.",
