@@ -16,43 +16,48 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
         <div className="app__modal-content">
           <h2>Connect with me</h2>
           <form onSubmit={handleSubmit} className="app__modal-content-form">
-            <label htmlFor="name">Imię:</label>
+            <label htmlFor="name"></label>
             <input
               type="text"
               id="name"
               name="name"
+              placeholder="name"
               value={name}
               onChange={(event) => setName(event.target.value)}
               required
             />
 
-            <label htmlFor="email">E-mail wysyłającego:</label>
+            <label htmlFor="email"></label>
             <input
               type="email"
               id="email"
               name="email"
+              placeholder="e-mail"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
               required
             />
 
-            <label htmlFor="message">Wiadomość:</label>
+            <label htmlFor="message"></label>
             <textarea
               id="message"
               name="message"
               value={message}
+              placeholder="message"
               onChange={(event) => setMessage(event.target.value)}
               required
             ></textarea>
 
-            <button type="submit">Wyślij</button>
+            <button type="submit" className="app__modal-button">
+              Wyślij
+            </button>
           </form>
-          <button
+          {/* <button
             className="app__modal-button modal-close"
             onClick={handleCloseModal}
           >
             Zamknij
-          </button>
+          </button> */}
         </div>
       </div>
     )

@@ -1,36 +1,37 @@
-@import 'utilities/variables';
+@import "utilities/variables";
 
-.app__projects{
+.app__projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1,
+  h3 {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    font-size: $--fs-h1;
+    span {
+      color: $--clr-orange;
+    }
+  }
+  h3 {
+    margin-bottom: 3rem;
+  }
+  .app__projects-cards {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    h1, h3{
-        text-align: center;
-    }
-    h1{
-        margin-bottom: 1rem;
-        font-size: $--fs-h1;
-        span{
-            color: $--clr-orange;
-        }
-    }
-    h3{
-        margin-bottom: 5rem;
-    }
-    .app__projects-cards{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 2.5rem;
-    }
+    align-items: center;
+    gap: 2.5rem;
+  }
 }
 
-@media screen and (min-width: 768px){
-    .app__projects{
-        .app__projects-cards{
-            flex-direction: row;
-        }
+@media screen and (min-width: 768px) {
+  .app__projects {
+    .app__projects-cards {
+      flex-direction: row;
     }
+  }
 }

@@ -13,25 +13,37 @@
   transform: rotate(-1deg);
   font-weight: $--fw-bold;
 
-  .marquee__content{
+  .marquee__content {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     gap: var(--gap);
     flex-shrink: 0;
-    min-width: 100%;
+    width: 100%;
     animation: marquee-infinite-content 32s linear infinite;
+    .star {
+      color: $--clr-orange;
+    }
   }
-  
-  .star {
-    color: $--clr-orange;
-  }
+
   @keyframes marquee-infinite-content {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
   }
 }
+
+@media screen and (min-width: 768px) {
+  @keyframes marquee-infinite-content {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
 }

@@ -26,7 +26,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: $--clr-black;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,10 +40,34 @@
       text-align: center;
       color: $--clr-orange;
     }
-    .app__modal-content-form{
+    .app__modal-content-form {
       display: flex;
       flex-direction: column;
       align-items: center;
+      textarea,
+      input {
+        border-radius: 1rem;
+        border: none;
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+        font-size: $--fs-body;
+        &:focus,
+        &:focus {
+          outline: none;
+        }
+      }
+      label{
+        margin: 0.5rem;
+      }
+      input {
+        height: 50px;
+      }
+      textarea{
+        padding: 0.5rem;
+        height: 200px;
+        margin-bottom: 1rem;
+      }
     }
     .app__modal-button {
       font-size: $--fs-h4;

@@ -34,6 +34,12 @@ $--fs-body-mobile: 1rem;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .section__padding {
+    padding: 2rem 8rem;
+  }
+}
+
 @mixin btn($color, $bg) {
   background-color: $bg;
   font-family: $--ff-inter;
