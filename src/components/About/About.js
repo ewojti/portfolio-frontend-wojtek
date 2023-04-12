@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import './About.scss'
-import { FiLinkedin } from "react-icons/fi";
 import "aos/dist/aos.css";
 import Aos from "aos";
 
