@@ -25,9 +25,9 @@ const Header = () => {
           I ASPIRE TO MY FIRST JOB AS A FRONTEND DEVELOPER
         </h1>
         <p className="app__header-description slide-in-bottom">
-          I CREATE WEBSITES THAT ARE A PLEASURE TO USE. I DESIGN THEM WITH
-          BEAUTIFUL TYPOGRAPHY, MEANINGFUL TRANSITIONS AND THOUGHTFUL
-          INTERACTIONS THAT DELIGHT PEOPLE.
+          PASSIONATE JUNIOR DEVELOPER WITH A DESIRE TO LEARN AND GROW SEEKS
+          OPPORTUNITIES TO CONTRIBUTE TO DYNAMIC AND INNOVATIVE DEVELOPMENT
+          PROJECTS.
         </p>
         <button
           className="app__header-text-button slide-in-bottom-sec"

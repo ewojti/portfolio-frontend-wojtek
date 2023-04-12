@@ -48,15 +48,11 @@ const About = () => {
           </h4>
           <p>
             I finished a "Frontend Developer carrer path" <span>course</span> at
-            Scrimba.com. Next I started working at my <span>own projects</span>{" "}
+            Scrimba.com. Next I started working at my <span>own projects</span>
             to expand my skills about JS & React.js, CSS and also
-            CSS-preprocessor. I also participate at{" "}
-            <span>open source project</span> at LombiCash.com. Where I working
-            on frontend side. My whole learning path was under the supervision
-            of an lead programmer{" "}
-            <span>
-              <FiLinkedin />
-            </span>
+            CSS-preprocessor. I also participate at
+            <span>commercial project</span> at Lombi.com. Where I working
+            on frontend side.
             .
           </p>
         </div>
