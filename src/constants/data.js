@@ -5,7 +5,7 @@ const projects = [
     title: "Physiotherapy website",
     image: `${images.fizjoterapia}`,
     description:
-      "Website of the physiotherapy office with a blog. This site was build in Next.js which come with a lot of optimization. ",
+      "This is a repository for a website project for a physiotherapy business, which also includes a blog with a Hygraph CMS integration. The website was initially written in Create React App, but it has been migrated to Next.js due to lot of optimization. ",
     gitHubLink: "https://github.com/ewojti/fizjoterapia-joanna-ejsmont-nextjs",
     liveLink: "https://www.fizjoterapia-ejsmont.pl",
     technologies: ["NEXT", "HTML", "SCSS"],
@@ -17,7 +17,7 @@ const projects = [
       "During my work on a commercial project at LOMBI.com, I was responsible for the frontend development and had the opportunity to learn and develop my skills under the guidance of experienced programmers. I used Git version control system and Jira application for effective task management and team coordination.",
     gitHubLink: "https://github.com/miszol1/lombi-token-front",
     liveLink: "",
-    technologies: ["React", "HTML", "CSS"],
+    technologies: ["React", "HTML", "SCSS"],
   },
   {
     title: "Quizzical",
@@ -32,8 +32,8 @@ const projects = [
     title: "Restaurant website",
     image: `${images.restaurant}`,
     description:
-      "The project for a local restaurant website built in React will involve creating a user-friendly and interactive interface, with added functionality to enable customers to place online orders.",
-    gitHubLink: "",
+      "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders.",
+    gitHubLink: "https://github.com/ewojti/local-restaurant",
     liveLink: "",
     technologies: ["React", "HTML", "CSS"],
   },
