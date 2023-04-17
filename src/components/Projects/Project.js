@@ -44,7 +44,7 @@ const Project = ({
           className="app__project-card-view-btn"
           rel="noreferrer"
         >
-          <p>View Site</p>
+          <p>View Website</p>
         </a> : '' }
 
         <a
@@ -53,7 +53,7 @@ const Project = ({
           className="app__project-card-view-btn"
           rel="noreferrer"
         >
-          <p>View Code</p>
+          <p>View on GitHub</p>
         </a>
       </div>
     </div>

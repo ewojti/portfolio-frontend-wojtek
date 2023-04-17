@@ -20,21 +20,21 @@ const projects = [
     technologies: ["React", "HTML", "SCSS"],
   },
   {
+    title: "Restaurant website",
+    image: `${images.restaurant}`,
+    description:
+      "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders. Temporary deploy on netlify but it's not final version yet",
+    gitHubLink: "https://github.com/ewojti/local-restaurant",
+    liveLink: "local-restaurant-website.netlify.app",
+    technologies: ["React", "HTML", "CSS"],
+  },
+  {
     title: "Quizzical",
     image: `${images.quizzical}`,
     description:
       "A simple quiz game built in React that uses the free JSON API from openTriviaDataBase, where the user can select the game mode and questions are randomly generated. Depending on the game mode, the player has a limited number of attempts to answer the questions correctly.",
     gitHubLink: "https://github.com/ewojti/quiz-game",
     liveLink: "",
-    technologies: ["React", "HTML", "CSS"],
-  },
-  {
-    title: "Restaurant website",
-    image: `${images.restaurant}`,
-    description:
-      "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders. Temporary deploy on netlify but it's not final version yet",
-    gitHubLink: "https://github.com/ewojti/local-restaurant",
-    liveLink: "https://mellow-marshmallow-88de56.netlify.app/",
     technologies: ["React", "HTML", "CSS"],
   },
   {
