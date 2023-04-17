@@ -17,6 +17,7 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
       message: message.value,
     };
     console.log(conFom);
+    console.log(formStatus)
   };
   return (
     isOpen && (

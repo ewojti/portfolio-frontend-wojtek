@@ -25,7 +25,7 @@ const projects = [
     description:
       "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders. Temporary deploy on netlify but it's not final version yet",
     gitHubLink: "https://github.com/ewojti/local-restaurant",
-    liveLink: "local-restaurant-website.netlify.app",
+    liveLink: "https://local-restaurant-website.netlify.app",
     technologies: ["React", "HTML", "CSS"],
   },
   {
