@@ -32,9 +32,9 @@ const projects = [
     title: "Restaurant website",
     image: `${images.restaurant}`,
     description:
-      "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders.",
+      "Actually working on the project for a local restaurant website built in React will involve creating a elegance and interactive interface, with added functionality to enable customers to place online orders. Temporary deploy on netlify but it's not final version yet",
     gitHubLink: "https://github.com/ewojti/local-restaurant",
-    liveLink: "",
+    liveLink: "https://mellow-marshmallow-88de56.netlify.app/",
     technologies: ["React", "HTML", "CSS"],
   },
   {

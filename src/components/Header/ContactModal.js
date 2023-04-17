@@ -25,7 +25,6 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
         <div className="app__modal-content">
           <h2>Connect with me</h2>
           <form onSubmit={handleSubmit} className="app__modal-content-form">
-            <label htmlFor="name"></label>
             <input
               type="text"
               id="name"
@@ -35,8 +34,6 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
               onChange={(event) => setName(event.target.value)}
               required
             />
-
-            <label htmlFor="email"></label>
             <input
               type="email"
               id="email"
@@ -46,8 +43,6 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
               onChange={(event) => setEmail(event.target.value)}
               required
             />
-
-            <label htmlFor="message"></label>
             <textarea
               id="message"
               name="message"
