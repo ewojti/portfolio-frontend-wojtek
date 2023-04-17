@@ -6,8 +6,17 @@ export default function ContactModal({ isOpen, handleCloseModal }) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const [formStatus, setFormStatus] = React.useState("Send");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormStatus("Submitting...");
+    const { name, email, message } = e.target.elements;
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    console.log(conFom);
   };
   return (
     isOpen && (
