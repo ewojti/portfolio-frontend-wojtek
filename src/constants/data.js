@@ -17,7 +17,7 @@ const projects = [
       "During my work on a commercial project at LOMBI.com, I was responsible for the frontend development and had the opportunity to learn and develop my skills under the guidance of experienced programmers. I used Git version control system and Jira application for effective task management and team coordination.",
     gitHubLink: "https://github.com/miszol1/lombi-token-front",
     liveLink: "",
-    technologies: ["React", "HTML", "SCSS"],
+    technologies: ["React", "Redux", "SCSS"],
   },
   {
     title: "Restaurant website",
