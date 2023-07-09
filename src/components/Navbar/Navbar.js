@@ -22,7 +22,7 @@ const Navbar = () => {
           <FiGithub />
         </a>
         <a
-          href="https://drive.google.com/file/d/1tOi3r-n15_gGJQRIW3WKBgHW2kL1bDQU/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_-YMxjB_6RNSEeP4QUEILkig3kvT0fB6/view?usp=sharing"
           target="blank"
           rel="noreferrer"
         >

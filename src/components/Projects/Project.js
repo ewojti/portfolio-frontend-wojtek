@@ -38,15 +38,15 @@ const Project = ({
         </div>
       </div>
       <div className="app__project-card-view">
-        {liveLink !== "" ? <a
+        {liveLink !== "" && <a
           href={liveLink}
           target="_blank"
           className="app__project-card-view-btn"
           rel="noreferrer"
         >
           <p>View Website</p>
-        </a> : '' }
-
+        </a>}
+        {gitHubLink !== "" &&  
         <a
           href={gitHubLink}
           target="_blank"
@@ -54,7 +54,7 @@ const Project = ({
           rel="noreferrer"
         >
           <p>View on GitHub</p>
-        </a>
+        </a>}
       </div>
     </div>
   );
